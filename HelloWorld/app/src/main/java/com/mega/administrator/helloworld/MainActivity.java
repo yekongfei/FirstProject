@@ -24,7 +24,9 @@ public class MainActivity extends AppCompatActivity {
         Log.d("liangfei","onResume");
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
 
-
-
+    }
 }
