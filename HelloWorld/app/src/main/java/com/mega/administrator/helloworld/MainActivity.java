@@ -13,8 +13,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d("liangfei","onResume");
+    }
+
+    @Override
     protected void onResume() {
         super.onResume();
-        Log.d("liangfei","onresume===");
+        Log.d("liangfei","onResume");
     }
+
+
+
+
 }
